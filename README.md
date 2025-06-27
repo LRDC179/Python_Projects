@@ -28,11 +28,11 @@ python -m spacy download en_core_web_md
 ** Results:**
 | Model          | RMSE   | R² Score |
 |----------------|--------|----------|
-| Baseline       | 145000 | 0.62     |
-| **Final Model**| 113000 | 0.83     |
+| **Model**      | 1990 | 0.73     |
+
 
 3. Diabetes Diagnosis Prediction (Classification)
-** Directory:** /diabetes-prediction  
+** Directory:** /Synthetic_data_logisticmodel  
 ** Overview:**  
 - Created logistic regression classifier to predict diabetes risk
 - Balanced imbalanced data using SMOTE
@@ -42,13 +42,13 @@ python -m spacy download en_core_web_md
 
               precision    recall  f1-score   support
 
-           0       0.92      0.86      0.89       500
-           1       0.78      0.89      0.83       268
+           0       0.83      0.76      0.79       100
+           1       0.61      0.70      0.66       54
 
-    accuracy                           0.87       768
+    accuracy                           0.74       154
 
 4. Flower Species Classification
-** Directory:** /flower-classification 
+** Directory:** /Cluster_flower
 
 ** Overview:**  
 - Compared K-Means, KNN, and Decision Tree models
@@ -57,9 +57,8 @@ python -m spacy download en_core_web_md
 ** Model Comparison:**
 | Model          | Accuracy | Training Time |
 |----------------|----------|---------------|
-| K-Means        | 89.3%    | 0.4s          |
-| KNN            | 95.7%    | 0.8s          |
-| Decision Tree  | 97.1%    | 1.2s          |
+| KNN            | 93.3%    | 0.8s          |
+| Decision Tree  | 96.7%    | 1.2s          |
 
 
  Technologies Used
