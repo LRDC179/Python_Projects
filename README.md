@@ -3,17 +3,19 @@ Collection of data science projects demonstrating machine learning and NLP capab
 
 * Projects*
 
- 1. Symptom Analysis Chatbot (NLP)
- Directory:** /nlp_chat_bot  
- Overview:**  
-- Built an NLP-powered chatbot using spaCy to analyze patient symptoms and suggest potential conditions
-- Implemented text preprocessing, entity recognition, and similarity matching
-- Achieved 85% accuracy in symptom-disease mapping
+1. Flower Species Classification
+** Directory:** /Cluster_flower
 
-** Dependencies:**
+** Overview:**  
+- Compared K-Means, KNN, and Decision Tree models
+- Visualized cluster patterns and feature importance
 
-pip install spacy pandas numpy
-python -m spacy download en_core_web_md
+** Model Comparison:**
+| Model          | Accuracy | 
+|----------------|----------|
+| KNN            | 93.3%    | 
+| Decision Tree  | 96.7%    | 
+
 
 
 2. Home Price Prediction (Regression)
@@ -23,12 +25,11 @@ python -m spacy download en_core_web_md
 ** Overview:**  
 - Developed linear regression model to predict housing prices
 - Engineered features, handled missing data, and optimized hyperparameters
-- Reduced prediction error by 22% compared to baseline models
 
 ** Results:**
 | Model          | RMSE   | R² Score |
 |----------------|--------|----------|
-| **Model**      | 1990 | 0.73     |
+| **Model**      | 1990   | 0.73     |
 
 
 3. Diabetes Diagnosis Prediction (Classification)
@@ -36,7 +37,7 @@ python -m spacy download en_core_web_md
 ** Overview:**  
 - Created logistic regression classifier to predict diabetes risk
 - Balanced imbalanced data using SMOTE
-- Achieved 89% recall
+- Achieved 76% recall
 
 **Performance Metrics:**
 
@@ -47,25 +48,18 @@ python -m spacy download en_core_web_md
 
     accuracy                           0.74       154
 
-4. Flower Species Classification
-** Directory:** /Cluster_flower
-
-** Overview:**  
-- Compared K-Means, KNN, and Decision Tree models
-- Visualized cluster patterns and feature importance
-
-** Model Comparison:**
-| Model          | Accuracy | Training Time |
-|----------------|----------|---------------|
-| KNN            | 93.3%    | 0.8s          |
-| Decision Tree  | 96.7%    | 1.2s          |
+4. Symptom Analysis Chatbot (NLP)
+ Directory:** /nlp_chat_bot  
+ Overview:**  
+- Built an NLP-powered chatbot using spaCy to analyze patient symptoms and suggest potential conditions
+- Implemented text preprocessing, entity recognition, and similarity matching
 
 
  Technologies Used
-- **Machine Learning:** Scikit-learn, 
-- **NLP:** spaCy, 
+- **Machine Learning:** Scikit-learn 
+- **NLP:** spaCy 
 - **Data Processing:** Pandas, NumPy
-- **Visualization:** Matplotlib, 
+- **Visualization:** Matplotlib 
 - **Data Augmentation:** SMOTE
 
 ##  Contributing
