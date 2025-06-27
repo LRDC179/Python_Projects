@@ -7,7 +7,7 @@ Collection of data science projects demonstrating machine learning and NLP capab
 ** Directory:** /Cluster_flower
 
 ** Overview:**  
-- Compared K-Means, KNN, and Decision Tree models
+- Compared KNN and Decision Tree models
 - Visualized cluster patterns and feature importance
 
 ** Model Comparison:**
